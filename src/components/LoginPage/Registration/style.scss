@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.registration_section {
+  min-height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  .registration_section-button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .registration_section-input {
+    height: 40px;
+    width: 300px;
+    border: 2px solid green;
+    border-radius: 8px;
+    outline: none;
+    font-size: 25px;
+  }
+}
+
+.reg {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+
+.registration_section-button-link {
+  text-decoration: none;
+  border: 1px solid blue;
+  border-radius: 8px;
+  padding: 10px;
+  position: relative;
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+}
+
+.login-link {
+  position: absolute;
+  bottom: 125px;
+}
+
+.worning {
+  height: 40px;
+  width: 300px;
+  border: 2px solid red;
+  border-radius: 8px;
+  outline: none;
+  font-size: 25px;
+}

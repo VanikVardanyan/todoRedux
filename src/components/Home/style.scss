@@ -1,0 +1,15 @@
+.homePage_section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+
+
+@media only screen and (max-width: 425px) {
+    .homePage_section {
+        width: 320px;
+    }
+  }
