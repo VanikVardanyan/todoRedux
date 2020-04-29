@@ -8,7 +8,7 @@ import HomePage from './components/Home/Home';
 const App = () => {
   
   return (
-        <div>
+        <div >
     <BrowserRouter>
       <Switch>
       <Route exact path='/' component = {HomePage} /> 
